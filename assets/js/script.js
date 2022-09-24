@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function() {
+    
+})
+
 let disk1 = size[0]
 
 let disk2 = size[1]

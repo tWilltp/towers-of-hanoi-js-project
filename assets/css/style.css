@@ -6,42 +6,67 @@ html {
 
 }
 
-.poles {
+/* pole styles */
 
+.poles {
+    display: inline;
 }
 
+#pole1 {
+    height: 300px;
+    width: 10px;
+    color: black;
+    background-color: black;
+}
+
+#pole2 {
+    height: 300px;
+    width: 10px;
+    color: black;
+    background-color: black;
+}
+
+#pole3 {
+    height: 300px;
+    width: 10px;
+    color: black;
+    background-color: black;
+}
+
+/* disk styles */
+
 .disks {
+    text-align: center;
+}
+
+#disk1 {
+    text-align: center;
+    height: 25px;
+    width: 100px;
+    color: red;
+    background-color: red;
+}
+
+#disk2 {
+    text-align: center;
+    height: 25px;
+    width: 200px;
+    color: blue;
+    background-color: blue;
+}
+
+#disk3 {
+    text-align: center;
+    height: 25px;
+    width: 300px;
+    color: green;
+    background-color: green;
+}
+
+#tally-box {
 
 }
 
 .moves {
-
-}
-
-#pole1 {
-    
-}
-
-#pole2 {
-
-}
-
-#pole3 {
-
-}
-
-#disk1 {
-
-}
-
-#disk2 {
-
-}
-
-#disk3 {
-
-}
-
-#tally-box {
 
 }
