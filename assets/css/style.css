@@ -3,13 +3,13 @@ html {
 }
 
 .game-area {
-
+    border: 1px, solid black;
 }
 
 /* pole styles */
 
 .poles {
-    display: inline;
+
 }
 
 #pole1 {
@@ -17,6 +17,10 @@ html {
     width: 10px;
     color: black;
     background-color: black;
+    float: left;
+    position: static;
+    margin-top: 0%;
+    margin-left: 20%;
 }
 
 #pole2 {
@@ -24,6 +28,10 @@ html {
     width: 10px;
     color: black;
     background-color: black;
+    float: center;
+    position: static;
+    margin-right: 50%;
+    margin-left: 50%;
 }
 
 #pole3 {
@@ -31,6 +39,10 @@ html {
     width: 10px;
     color: black;
     background-color: black;
+    float: right;
+    position: relative;
+    margin-right: 20%;
+    top: -330px;
 }
 
 /* disk styles */
@@ -60,6 +72,41 @@ html {
     height: 25px;
     width: 300px;
     color: green;
+    background-color: green;
+}
+
+/* button styles */
+
+#pole1-button {
+    height: 25px;
+    width: 25px;
+}
+
+#pole2-button {
+    height: 25px;
+    width: 25px;
+}
+
+#pole3-button {
+    height: 25px;
+    width: 25px;
+}
+
+#disk1-button {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+}
+
+#disk2-button {
+    height: 25px;
+    width: 25px;
+    background-color: blue;
+}
+
+#disk3-button {
+    height: 25px;
+    width: 25px;
     background-color: green;
 }
 
