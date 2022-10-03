@@ -1,37 +1,28 @@
-document.addEventListener("DOMContentLoaded", function() {
-    let buttons = document.getElementsByTagName("button");
+const containerElements = document.querySelectorAll(".container");
+const draggableElements = document.querySelectorAll(".draggable");
 
-    
-})
+draggableElements.forEach(elem => {
+   elem.addEventListener("dragstart", dragStart);
+   elem.addEventListener("ondrag", onDrag);
+   elem.addEventListener("ondragend", onDragEnd);
+});
 
-let disk1 = size[0]
+containerElements.forEach(elem => {
+  elem.addEventListener("ondragenter", onDragEnter);
+  elem.addEventListener("ondragover", onDragOver);
+  elem.addEventListener("ondragleave", onDragLeave);
+  elem.addEventListener("ondrop", onDrop);
+});
 
-let disk2 = size[1]
-
-let disk3 = size[2]
-
-function runGame() {
-
+function dragStart(event) {
+  event.dataTransfer.setData("text", event.target.color);
 }
 
-function selectDisk() {
-
+function onDragOver(event) {
+  event.preventDefault();
 }
 
-function selectPole() {
-
+function onDrop(event) {
+  event.preventDefault();
+  const draggableElementsData = event.dataTransfer.getData("text");
 }
-
-function checkDiskSize() {
-    if disk > disk
-}
-
-function assignDisk() {
-
-}
-
-function incrementMoves() {
-
-}
-
-

@@ -8,10 +8,6 @@ html {
 
 /* pole styles */
 
-.poles {
-
-}
-
 #pole1 {
     height: 300px;
     width: 10px;
@@ -42,14 +38,10 @@ html {
     float: right;
     position: relative;
     margin-right: 20%;
-    top: -330px;
+    top: -300px;
 }
 
 /* disk styles */
-
-.disks {
-    text-align: center;
-}
 
 #disk1 {
     text-align: center;
@@ -57,58 +49,28 @@ html {
     width: 100px;
     color: red;
     background-color: red;
+    margin-left: 20%;
 }
 
 #disk2 {
     text-align: center;
     height: 25px;
-    width: 200px;
+    width: 150px;
     color: blue;
     background-color: blue;
+    margin-left: 20%;
 }
 
 #disk3 {
     text-align: center;
     height: 25px;
-    width: 300px;
+    width: 200px;
     color: green;
     background-color: green;
+    margin-left: 20%;
 }
 
-/* button styles */
-
-#pole1-button {
-    height: 25px;
-    width: 25px;
-}
-
-#pole2-button {
-    height: 25px;
-    width: 25px;
-}
-
-#pole3-button {
-    height: 25px;
-    width: 25px;
-}
-
-#disk1-button {
-    height: 25px;
-    width: 25px;
-    background-color: red;
-}
-
-#disk2-button {
-    height: 25px;
-    width: 25px;
-    background-color: blue;
-}
-
-#disk3-button {
-    height: 25px;
-    width: 25px;
-    background-color: green;
-}
+/* score box styles */
 
 #tally-box {
 
@@ -116,4 +78,10 @@ html {
 
 .moves {
 
+}
+
+/* drag styles */
+
+.draggable.dragging {
+    opacity: .5;
 }

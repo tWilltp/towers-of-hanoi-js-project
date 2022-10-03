@@ -3,7 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="wdith=device-width, initialscale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/script.js" defer></script>
         <title>
             Towers of Hanoi
         </title>
@@ -11,30 +13,24 @@
     <body>
         <h1>Towers of Hanoi</h1>
         <div class="game-area">
-            <div class="poles">
-                <p id="pole1"></p>
-                <p id="pole2"></p>
-                <p id="pole3"></p>
+            <div>
+                <p class="draggable" id="disk1" draggable="true"></p>
+                <p class="draggable" id="disk2" draggable="true"></p>
+                <p class="draggable" id="disk3" draggable="true"></p>
             </div>
-            <div class="disks">
-                <p id="disk1"></p>
-                <p id="disk2"></p>
-                <p id="disk3"></p>
+
+            <div class="container">
+                <div id="pole1"></div>
+                <div id="pole2"></div>
+                <div id="pole3"></div>
             </div>
-            <div class="game-controls">
-                <button id="disk1-button">d1</button>
-                <button id="disk2-button">d2</button>
-                <button id="disk3-button">d3</button>
-                <button id="pole1-button">p1</button>
-                <button id="pole2-button">p2</button>
-                <button id="pole3-button">p3</button>
-            </div>
-        </div>
+             
+        </div>    
+        
         <div class="moves">
             <span id="tally-box">
 
             </span>
         </div>
-        <script src="assets/js/script.js"></script>
     </body>
 </html>    
